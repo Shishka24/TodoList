@@ -6,3 +6,17 @@
 .App > div {
   margin-right: 50px;
 }
+
+.task-done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.task {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.btn-active {
+  background-color: rgb(231, 187, 40);
+  color: rgb(39, 27, 141);
+  border-radius: 3px;
+}
